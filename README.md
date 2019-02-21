@@ -1,6 +1,6 @@
 # recsys_fnn
-Feedforward networks for recommender systems \n
-Make a new directory results/ to store the results for each choice of optimization algorithm and its hyperparameters. \n
+Feedforward networks for recommender systems 
+Make a new directory results/ to store the results for each choice of optimization algorithm and its hyperparameters.
 Store your splits in the following directory:
 my_data/dataset1/
 The first split will have the following names
