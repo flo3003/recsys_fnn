@@ -1,5 +1,6 @@
-DATASETS=("dataset1")
+#DATASETS=("dataset1" "dataset2")
 
+dataset="dataset1"
 split=$1
 
 NETWORKS=("single_nn" "single_nn_gm" "double_nn")
@@ -23,9 +24,9 @@ epochs=100
 
 echo "network_type,result,optimizer,lr,momentum,dr,reg1,reg2,act_function,at_epoch" >> $filename
 
-for dataset in "${DATASETS[@]}"
+#for dataset in "${DATASETS[@]}"
 
-do
+#do
 
 filename="results_"$dataset"_u"$split".csv"
 
@@ -114,7 +115,7 @@ done
 
 grep -v Invalid $filename > "clean_"$filename
  
-done
+#done
 
 echo "Done!"
 
