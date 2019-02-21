@@ -19,3 +19,7 @@ To run the *run_me.sh* script you need to specify which split .
 
 ./run_me.sh 1
 
+To run just one example e.g. 
+Network: single_nn Learning rate: 0.01 Optimizer: SGD Activation function: selu Dropout: 0.05 Epochs: 100 Momentum: 0.2 Dataset: dataset1 Split: 1
+
+python recsys_fnn.py single_nn 0.01 SGD selu 0.05 100 0.2 dataset1 1
